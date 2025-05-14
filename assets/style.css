@@ -1,0 +1,60 @@
+/* Gaya Umum */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+footer {
+    background: linear-gradient(135deg, #333, #000);
+}
+
+/* Papan Permainan */
+#game-board {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border: 2px solid #333;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Balok */
+.block {
+    position: absolute;
+    background-color: #2575fc;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    transition: top 0.3s ease; /* Animasi jatuh */
+}
+
+.moving-block {
+    background-color: #6a11cb;
+    transition: left 0.05s linear;
+}
+
+/* Efek Gambar */
+.grayscale {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+.grayscale:hover {
+    filter: grayscale(0%);
+}
+
+/* Teks dan UI */
+#score-display {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2575fc;
+}
+
+/* Kontrol sentuh hanya tampil di perangkat kecil */
+@media (min-width: 768px) {
+    #btn-left, #btn-right, #btn-drop {
+        display: none;
+    }
+}
