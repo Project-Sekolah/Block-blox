@@ -2,7 +2,7 @@
 
 Block Blox adalah permainan tumpuk balok sederhana berbasis web. Tujuan utama dari permainan ini adalah menumpuk balok sebanyak mungkin tanpa meleset!
 
-![Gameplay Screenshot](screenshot.png) 
+![Gameplay Screenshot](assets/img/game.png) 
 
 ## 🎮 Fitur
 
