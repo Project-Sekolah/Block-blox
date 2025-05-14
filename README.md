@@ -30,7 +30,7 @@ Gunakan tombol:
 1. Clone atau download repositori ini:
 
    ```bash
-   [git clone https://github.com/username/block-blox.git](https://github.com/Project-Sekolah/Block-blox.git](https://github.com/Project-Sekolah/Block-blox.git)
+   [git clone https://github.com/Project-Sekolah/Block-blox.git]
    cd block-blox
 
 ## Dibuat Oleh Rajendra
